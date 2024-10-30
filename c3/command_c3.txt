@@ -1,0 +1,4 @@
+cd Desktop OR cd c3
+source ./c3_venv/bin/activate
+(CHECK PYTHONPATH to include /home/chiu/Desktop/c3_neural_compression if unsure)
+python3 -m c3_neural_compression.experiments.image --config=c3_neural_compression/configs/single_texture.py
